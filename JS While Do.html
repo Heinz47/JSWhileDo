@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS while do and 3 Day !</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+</body>
+</html>
+
+  <script type="text/javascript">
+
+var i = 1;
+var msg = '';
+while (i < 5) {
+    msg = "This line comes from iteration N " + i + '<br/>';
+    i++;
+    document.write("<div><b>This is iteration the N" + (i-1) + "</b><br>" + msg + "</div><br>");
+}
+
+
+var i = 1;
+var msg = '';
+while (i < 5) {
+    msg += "This line comes from iteration N " + i + '<br/>';
+    i++;
+    document.write("<div><b>This is iteration the N" + (i-1) + "</b><br>" + msg + "</div><br>");
+}
+
+
+var text = "";
+for (i = 0; i < 5; i++) {
+   text += "The index is " + i + "<br>";
+}
+document.write(text);
+
+
+
+var i = 0;
+var msg = '';
+while (i < 11) {
+   msg = i + ' x 5 = ' + (i * 5) + '<br/>';
+   i++;
+   document.write(msg);
+}
+
+
+
+var i = 1;
+var msg = '';
+while (i < 10) {
+    msg += i + ' x 5 = ' + (i * 5) + '<br/>';
+    i++;
+    document.write(msg);
+}
+	
+
+
+var i = 1;
+var msg = '';
+do {
+    msg = i + ' x 8 = ' + (i * 8) + '<br />';
+    i++;
+    document.write(msg);
+} while (i < 11);
+
+
+
+var i = 5;
+var msg = '';
+do {
+    msg = i + ' / 5 = ' + (i /5) + '<br />';
+    i++;
+    document.write(msg);
+} while (i < 51);
+
+
+
+var a = 300;
+
+
+if (a > 100) {
+   document.write("a is greater than 100");
+} else {
+   document.write("a is less than or equal to 100");
+}
+
+
+
+var level = "One";
+
+switch (level) {
+   case 'One':
+       title = 'Level 1';
+       console.log(title);
+       break;
+   case 'Two':
+       title = 'Level 2';
+       console.log(title);
+       break;
+   case 'Three':
+       title = 'Level 3';
+       console.log(title);
+       break;
+   default:
+       title = "This string it's not a level";
+       console.log(title);
+       break;
+}
+
+
+	</script>
